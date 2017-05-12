@@ -71,6 +71,11 @@ var argv = yargs
             type: 'boolean',
             default: defaults.generateNormals
         },
+        removeNormals : {
+            describe: 'Remove all normals information.',
+            type: 'boolean',
+            default: defaults.removeNormals
+        },
         ao : {
             describe: 'Apply ambient occlusion to the converted model.',
             type: 'boolean',
@@ -127,6 +132,7 @@ var options = {
     optimize : argv.optimize,
     optimizeForCesium : argv.optimizeForCesium,
     generateNormals : argv.generateNormals,
+    removeNormals : argv.removeNormals,
     ao : argv.ao,
     kmc : argv.kmc,
     bypassPipeline : argv.bypassPipeline,

@@ -40,6 +40,7 @@ Using obj2gltf as a command-line tool:
 |`-c`, `--compress`|Quantize positions, compress texture coordinates, and oct-encode normals.|No, default `false`|
 |`-z`, `--optimize`|Use the optimization stages in the glTF pipeline.|No, default `false`|
 |`-n`, `--generateNormals`|Generate normals if they are missing.|No, default `false`|
+|`--removeNormals`|Remove all normals information.|No, default `false`|
 |`--optimizeForCesium`|Optimize the glTF for Cesium by using the sun as a default light source.|No, default `false`|
 |`--ao`|Apply ambient occlusion to the converted model.|No, default `false`|
 |`--kmc`|Output glTF with the KHR_materials_common extension.|No, default `false`|
