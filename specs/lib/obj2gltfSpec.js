@@ -70,6 +70,7 @@ describe('obj2gltf', function() {
             optimize : true,
             optimizeForCesium : true,
             generateNormals : true,
+            removeNormals : false,
             ao : true,
             kmc : true,
             textureCompressionOptions : textureCompressionOptions,
